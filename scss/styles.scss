@@ -1,0 +1,77 @@
+// Variables
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$text-color: #333;
+$background-color: #f4f4f4;
+
+// Estilos globales
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: $text-color;
+  background-color: $background-color;
+  padding: 20px;
+}
+
+// Estilos para títulos
+h1, h2 {
+  color: $primary-color;
+}
+
+h1 {
+  font-size: 2.5em;
+  border-bottom: 2px solid $primary-color;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-top: 30px;
+}
+
+// Estilos para párrafos
+p {
+  margin-bottom: 15px;
+  
+  strong {
+    color: darken($primary-color, 10%);
+  }
+  
+  em {
+    color: $secondary-color;
+  }
+}
+
+// Estilos para listas
+ul, ol {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  
+  li {
+    margin-bottom: 5px;
+  }
+}
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: lower-roman;
+}
+
+// Estilos para secciones
+section {
+  background-color: lighten($background-color, 5%);
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+// Estilos para divs dentro de secciones
+section > div {
+  background-color: white;
+  padding: 10px;
+  border-radius: 3px;
+}

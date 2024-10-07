@@ -1,0 +1,15 @@
+{
+  "name": "theodinproject",
+  "version": "1.0.0",
+  "description": "Proyecto con Sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass scss/styles.scss css/styles.css --watch"
+  },
+  "author": "Robert Delvaty",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.79.4"
+  }
+}
